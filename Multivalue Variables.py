@@ -4,7 +4,7 @@
 # Dictionaries
 
 numberTuple = (1,2,3,4,5)
-stringTuple = ("mammoth","abc","")
+stringTuple = ("mammoth","abc","poppy")
 itemTuple = ("fruit",2,5.5)
 print("length of number tuple",len(numberTuple))
 print("length of string tuple",len(stringTuple))
@@ -36,7 +36,7 @@ print(shoppingList[1][0])
 masterList = clothesList + groceryList
 print(masterList)
 
-listOfStudents = {0:"",1:"",2:"",3:""}
+listOfStudents = {0:"poppy",1:"katie",2:"alex",3:"Ruby"}
 print(listOfStudents)
 print(listOfStudents[2])
 listOfStudents[3] = "tanya"
