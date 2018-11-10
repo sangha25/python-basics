@@ -47,11 +47,11 @@ class PlayerCharacter(GameCharacter):
                 self.lives = 0
             self.currentHP = self.maxHP
 
-newGameCharacter = GameCharacter("Nimish",100,1)
+newGameCharacter = GameCharacter("Neel",100,1)
 newGameCharacter.changeHP(-200)
 print(newGameCharacter.currentHP)
 print(newGameCharacter.lives)
-newPlayerCharacter = PlayerCharacter("Katie",150,10)
+newPlayerCharacter = PlayerCharacter("puppy",150,10)
 newPlayerCharacter.addInventoryItem("axe")
 newPlayerCharacter.changeHP(-200)
 print(newPlayerCharacter.currentHP)
